@@ -12,3 +12,6 @@
       squadre[i].punti = Math.floor(Math.random() * 100); // punti casuali
       squadre[i].falliSubiti = Math.floor(Math.random() * 50); // falli casuali
     }
+
+     console.log("Tutte le squadre con dati casuali:");
+    console.log(squadre);
