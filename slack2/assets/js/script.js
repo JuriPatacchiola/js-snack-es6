@@ -18,3 +18,12 @@
 
     // Creo un nuovo array con solo nome e falliSubiti
     const nuovoArray = [];
+
+    for (let i = 0; i < squadre.length; i++) {
+      const squadra = squadre[i];
+      // Aggiungngo un nuovo oggetto con solo le due proprietà richieste
+      nuovoArray.push({
+        nome: squadra.nome,
+        falliSubiti: squadra.falliSubiti
+      });
+    }
