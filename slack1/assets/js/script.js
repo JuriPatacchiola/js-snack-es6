@@ -13,3 +13,9 @@
         biciLeggera = bici[i];
       }
     }
+
+    
+    // Stampo il risultato in console
+    console.log("La bici più leggera è:");
+    console.log(`Nome: ${biciLeggera.nome}`);
+    console.log(`Peso: ${biciLeggera.peso} kg`);
