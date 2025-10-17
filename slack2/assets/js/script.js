@@ -27,3 +27,6 @@
         falliSubiti: squadra.falliSubiti
       });
     }
+
+    console.log("Nuovo array (solo nome e falli subiti):");
+    console.log(nuovoArray);
